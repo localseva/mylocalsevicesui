@@ -1,0 +1,61 @@
+.worker-cta-section {
+  padding: 72px 24px;
+}
+
+.worker-cta-container {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.worker-banner {
+  background: linear-gradient(135deg, #1A1A1A 0%, #2d2d2d 100%);
+  border-radius: 24px;
+  padding: 56px 48px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.worker-banner::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: rgba(255, 107, 53, 0.12);
+}
+
+.worker-banner::after {
+  content: "";
+  position: absolute;
+  bottom: -40px;
+  left: -40px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: rgba(46, 196, 182, 0.12);
+}
+
+.worker-cta-icon {
+  font-size: 56px;
+  margin-bottom: 16px;
+}
+
+.worker-cta-title {
+  font-family: "Baloo 2", cursive;
+  font-weight: 800;
+  font-size: clamp(24px, 4vw, 40px);
+  color: white;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.worker-cta-text {
+  color: #ffffffb0;
+  font-size: clamp(14px, 2vw, 17px);
+  line-height: 1.7;
+  max-width: 520px;
+  margin: 0 auto 32px;
+}
