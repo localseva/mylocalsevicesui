@@ -1,4 +1,4 @@
-import { useTranslation } from "../../_contexts/LanguageContext";
+import { useTranslation } from "../../../_contexts/LanguageContext";
 import "./Categories.css";
 
 export default function Categories() {

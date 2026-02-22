@@ -1,4 +1,4 @@
-import { useTranslation } from "../../_contexts/LanguageContext";
+import { useTranslation } from "../../../_contexts/LanguageContext";
 
 export default function Footer() {
   const { t } = useTranslation();

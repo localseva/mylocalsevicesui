@@ -1,4 +1,4 @@
-import { useTranslation } from "../../_contexts/LanguageContext";
+import { useTranslation } from "../../../_contexts/LanguageContext";
 import "./WorkerCTA.css";
 
 export default function WorkerCTA() {
