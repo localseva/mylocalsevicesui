@@ -1,4 +1,4 @@
-import { useTranslation } from "../../_contexts/LanguageContext";
+import { useTranslation } from "../../../_contexts/LanguageContext";
 
 const STEPS = [
   { icon: "📋", key1: "how1_title", key2: "how1_desc", color: "#FF6B35" },

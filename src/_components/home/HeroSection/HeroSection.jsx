@@ -1,4 +1,4 @@
-import { useTranslation } from "../../_contexts/LanguageContext";
+import { useTranslation } from "../../../_contexts/LanguageContext";
 import "./HeroSection.css";
 
 export default function HeroSection() {

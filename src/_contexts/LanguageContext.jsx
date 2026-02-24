@@ -208,6 +208,7 @@ const LANGS = [
 
 const LanguageContext = createContext();
 
+
 export const LanguageProvider = ({ children }) => {
   const [lang, setLang] = useState("en");
 
